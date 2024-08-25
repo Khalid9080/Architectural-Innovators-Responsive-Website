@@ -23,6 +23,7 @@
                         clifford: '#da373d',
                         'button-arrow-color': '#ABEF5F',
                         '2nd-colour': '#ABEF5F80',
+                        '3rd-colour': 'rgb(30, 30, 30)',
                     }
                 }
             }
@@ -39,9 +40,9 @@
 
 </head>
 
-<body class="manrope-font mx-28 my-10 ">
+<body class="manrope-font  ">
 
-    <header>
+    <header class="mx-28 my-10">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -99,8 +100,8 @@
                     </button>
 
 
-                    <a class="btn rounded-3xl bg-button-arrow-color ">Book Consultant <i
-                        class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black border rounded-full text-center p-2 mr-1"></i></a>
+                    <a class="btn rounded-3xl bg-button-arrow-color font-black">Book Consultant <i
+                            class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black border rounded-full text-center p-2 mr-1"></i></a>
 
 
                 </div>
@@ -120,12 +121,81 @@
             </p>
         </div>
 
+        <div class="flex flex-col justify-center items-center mt-10">
+            <a class="btn rounded-3xl bg-2nd-colour font-black ">View Details<i
+                    class="fa-solid fa-arrow-right text-black -rotate-45 w-8 h-8 bg-button-arrow-color border rounded-full text-center p-2 mr-1"></i></a>
 
-
+        </div>
 
     </header>
 
-    <main></main>
+    <main >
+
+        <section class="w-full bg-base-200 relative ">
+
+       
+     
+        <div class="hero p-40">
+            
+            <button class="btn rounded-3xl bg-white z-10 absolute text-xs font-bold left-80 top-28">
+                <i class="fa-solid fa-arrow-right  text-black"></i>
+                About Us
+              </button>
+
+              <div class="absolute left-64 top-14">
+                <img src="assets/Vector.png" alt="">
+              </div>
+
+            <div class="hero-content flex-col lg:flex-row-reverse gap-20">
+                <img src="assets/Rectangle.png" class="max-w-lg rounded-lg shadow-2xl" />
+
+
+                <div class="space-y-5">
+                    <h1 class="text-5xl font-black">We design thoughtful, <br> liveable spaces</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and <br>
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+
+                    <div>
+                        <div class="card bg-base-100  shadow-xl">
+                            <div class="card-body  flex flex-row gap-5">
+
+                                <div>
+                                    <img src="assets/commercial.png" alt="">
+                                </div>
+
+                                <div>
+                                    <h2 class="card-title font-extrabold">Commercial</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="card bg-base-100 shadow-xl">
+                            <div class="card-body flex flex-row gap-5">
+                                <div>
+                                    <img src="assets/residential.png" alt="">
+                                </div>
+                                <div>
+                                    <h2 class="card-title font-extrabold">Residential </h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
 
     <footer></footer>
 
