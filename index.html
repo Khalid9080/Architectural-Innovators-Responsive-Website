@@ -116,9 +116,9 @@
             </p>
         </div>
 
-        <div class="flex flex-col justify-center items-center mt-10">
-            <a class="btn rounded-3xl bg-2nd-colour font-black ">View Details<i
-                    class="fa-solid fa-arrow-right text-black -rotate-45 w-8 h-8 bg-button-arrow-color border rounded-full text-center p-2 mr-1"></i></a>
+        <div class="flex flex-col justify-center items-center mt-10 ">
+            <a class="btn rounded-3xl bg-2nd-colour font-black md:w-44 w-full">View Details<i
+                    class="fa-solid fa-arrow-right text-black -rotate-45 w-8 h-8 bg-button-arrow-color border rounded-full text-center p-2 mr-2"></i></a>
 
         </div>
 
@@ -126,30 +126,30 @@
 
 
     
-    <main>
+    <main class="">
         <!-- 2nd------------------- -->
-        <section class="w-full bg-base-200 relative ">
+        <section class="w-full bg-base-200 relative rounded-xl ">
 
 
 
-            <div class="hero p-40 ">
+            <div class="md:hero md:p-40 ">
 
-                <button class="btn rounded-3xl bg-white z-10 absolute text-xs font-bold left-80 top-28">
+                <button class="btn rounded-3xl bg-white z-10 absolute text-xs font-bold md:left-80 md:top-28 left-32 top-7">
                     <i class="fa-solid fa-arrow-right  text-black"></i>
                     About Us
                 </button>
 
-                <div class="absolute left-64 top-14">
+                <div class="absolute left-64 top-14 sm:flex hidden">
                     <img src="assets/Vector.png" alt="">
                 </div>
-
+<!-- ------------- -->
                 <div class="hero-content flex-col lg:flex-row-reverse gap-20">
-                    <img src="assets/Rectangle.png" class="max-w-lg rounded-lg shadow-2xl" />
+                   
+                    <img src="assets/Rectangle.png" class="max-w-lg rounded-lg sm:flex hidden shadow-2xl" />
 
-
-                    <div class="space-y-5">
-                        <h1 class="text-5xl font-black">We design thoughtful, <br> liveable spaces</h1>
-                        <p class="py-6">
+                    <div class="space-y-5 container mx-auto lg:mt-0 mt-20">
+                        <h1 class="md:text-5xl text-3xl font-black">We design thoughtful, <br> liveable spaces</h1>
+                        <p class="py-6 md:text-base text-sm">
                             The barn house captivates with its blend of rustic charm and <br>
                             modern sophistication, featuring weathered wood, sleek metal accents.
                         </p>
@@ -163,8 +163,8 @@
                                     </div>
 
                                     <div>
-                                        <h2 class="card-title font-extrabold">Commercial</h2>
-                                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                        <h2 class="card-title md:font-extrabold font-bold">Commercial</h2>
+                                        <p class="md:text-base text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                                     </div>
 
                                 </div>
@@ -179,16 +179,25 @@
                                         <img src="assets/residential.png" alt="">
                                     </div>
                                     <div>
-                                        <h2 class="card-title font-extrabold">Residential </h2>
-                                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                        <h2 class="card-title md:font-extrabold font-bold">Residential </h2>
+                                        <p class="md:text-base text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
 
+                        <div class=" lg:hidden md:hidden  ">
+                            <img src="assets/Rectangle.png" class="max-w-lg rounded-lg shadow-2xl container mx-auto" />
+                        </div>
+
                     </div>
                 </div>
+
+<!-- ------------- -->
+
+
+                
             </div>
        
           
