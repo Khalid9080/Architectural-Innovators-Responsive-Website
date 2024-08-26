@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -40,39 +40,25 @@
         .background-image {
             background-image: url("assets/bg.jpg");
         }
+        
     </style>
 
 
 </head>
 
-<body class="manrope-font  ">
+<body class="manrope-font container mx-auto px-8">
+    <!-- Header  [navbar banner] ------------ -->
+    <header class=" my-10">
 
-    <header class="mx-28 my-10">
+        <!-- Navber------------ -->
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 relative">
                 <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Service</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact US</a></li>
-                        </ul>
-                    </div>
 
 
                     <i
                         class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 bg-button-arrow-color rounded-full text-center p-2 mr-1"></i>
-                    <a class="text-2xl font-black">Rinterio</a>
+                    <a class="text-3xl font-black">Rinterio</a>
 
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -85,42 +71,46 @@
                     </ul>
                 </div>
 
+                
+                    <div class="navbar-end space-x-8 hidden sm:flex ">
+                        <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
 
-                <div class="navbar-end space-x-8 ">
+                        <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </button>
 
-                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                    </button>
-
-                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </button>
-
-
-                    <a class="btn rounded-3xl bg-button-arrow-color font-black">Book Consultant <i
-                            class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black rounded-full text-center p-2 mr-1"></i></a>
-
-
-                </div>
-            </div>
+                        <a class="btn rounded-3xl bg-button-arrow-color font-black">Book Consultant <i
+                                class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black rounded-full text-center p-2 mr-1"></i></a>
+                    </div>
+  
+                    <div class="dropdown absolute right-0">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                  </div>
         </nav>
 
-
-
+        <!-- banner---------------- -->
+ 
         <div class=" flex flex-col justify-center items-center mt-10">
             <img src="assets/banner.png" alt="" class="items-center justify-center text-center">
         </div>
         <div class="space-y-10 mt-10">
-            <h1 class="text-7xl text-center font-black">A barn house of this design has a <br> striking appearance</h1>
-            <p class="text-base text-center">The barn house captivates with its blend of rustic charm and modern
+            <h1 class="md:text-7xl text-5xl text-center font-black ">A barn house of this design has a <br> striking appearance</h1>
+            <p class=" md:text-base text-center text-sm">The barn house captivates with its blend of rustic charm and modern
                 sophistication, featuring
                 weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
             </p>
@@ -134,8 +124,10 @@
 
     </header>
 
-    <main>
 
+    
+    <main>
+        <!-- 2nd------------------- -->
         <section class="w-full bg-base-200 relative ">
 
 
@@ -198,9 +190,9 @@
                     </div>
                 </div>
             </div>
-
-
-
+       
+          
+<!--  
             <section class="py-20 -mt-20">
 
                 <div class=" text-center space-y-4 ">
@@ -257,14 +249,14 @@
 
             </section>
 
-
+-->
 
 
         </section>
 
 
-
-
+      
+<!--  
         <section class="background-image bg-no-repeat bg-cover ">
 
             <div class="text-center py-20 ">
@@ -317,11 +309,13 @@
 
         </section>
 
-
+-->
 
     </main>
 
-    <footer class="bg-black footer-bg">
+<!--  
+
+    <footer class="bg-footer-bg">
 
         <div class="text-center py-20 ">
 
@@ -339,7 +333,7 @@
 
 
 
-            <div class="flex flex-row justify-center gap-28 text-white mt-16">
+            <div class="flex flex-row justify-center gap-28 text-white mt-16 text-lg">
                 <p>Home</p>
                 <p>Service</p>
                 <p>Portfolio</p>
@@ -348,14 +342,14 @@
             </div>
 
             <div class="mt-14">
-                <a class="btn rounded-3xl bg-button-arrow-color border-0 font-black">Book Consultant <i
-                    class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black rounded-full text-center p-2 mr-1"></i></a>
+                <a class="btn rounded-3xl bg-button-arrow-color border-0 font-black">Book Consult <i
+                        class="fa-solid fa-arrow-right text-white -rotate-45 w-8 h-8 bg-black rounded-full text-center p-2 mr-1"></i></a>
             </div>
 
         </div>
 
     </footer>
-
+-->
 </body>
 
 </html>
